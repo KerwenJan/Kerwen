@@ -1,0 +1,79 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.main-heading {
+    font-weight: 900;
+    color: #f05a7e;
+    line-height: 1.1;   
+    letter-spacing: -1px;
+}
+
+.side-nav .nav-link {
+    color: #555;
+    font-weight: 700;
+    padding-left: 0;
+    font-size: 1.1rem;
+}
+
+.side-nav .nav-link:hover {
+    color: #f05a7e;
+}
+
+.btn-pink {
+    background-color: #f05a7e;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border: none;
+}
+
+.btn-pink:hover {
+    background-color: #d84b6d;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(0); 
+}
+
+.bg-image {
+    background-image: url("../img/01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.bg-shadow {
+    background-color: rgba(201, 198, 198, 0.274);
+}
+
+a.hover-1 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-1:hover {
+    color: red!important;
+}
+.card {
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.card:hover {
+    transform: translateY(-15px);
+}
+.card1 {
+    cursor: pointer;
+    transition: ease 0.7s;
+}
+.card1:hover {
+    transform: translateY(-10px);
+}
